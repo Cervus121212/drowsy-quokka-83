@@ -49,5 +49,11 @@
 - README.md ditulis.
 
 ## Repo GitHub
-- Nama acak: (diisi setelah push)
-- Commit: (diisi setelah push)
+- Nama acak: drowsy-quokka-83 (Cervus121212/drowsy-quokka-83)
+- Commit: 9f8fb84329897ebd7ac08756a49b1463006a3c18 (branch master)
+- PUBLIC terverifikasi via gh api (visibility public, private false)
+- README.md + About (description) + topics [bounty, make-fun, python] terisi
+- LICENSE MIT di root (SPDX-License-Identifier: MIT); GitHub melabel
+  NOASSERTION seperti semua LICENSE starter kit — make.fun membaca file
+  LICENSE root langsung (known issue skill makefun), check lokal yang
+  memutuskan.
