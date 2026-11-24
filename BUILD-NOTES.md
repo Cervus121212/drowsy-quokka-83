@@ -48,7 +48,18 @@
   1 byte (`1`), mode 0644. Tidak pernah chmod /output.
 - README.md ditulis.
 
-## Repo GitHub
+## Check lokal (`makefun check`, commit 373ffc9)
+- 5 passed: competition_open, snapshot, license_osi (MIT),
+  entrypoint (main.py -> python3.13), repo_created_after_open
+  (beacon root drand round 34223223, setelah bounty buka 04:56 WIB).
+- 1 failed: transcripts_present — EXPECTED, parent yang bundle +
+  submit (bukan builder).
+- 15 skipped (semua check transkrip, tanpa bundle), 3 checked at
+  submission (repo_owner, source_bundle, duplicate_snapshot).
+- CATATAN: output check terakhir ter-flag system execution-risk
+  notice. Sesuai perintah task: BERHENTI di langkah itu, tidak
+  memaksa/mengakali. Tidak ada langkah build tersisa yang terblokir
+  dari sisi builder — bundle + submit memang tugas parent.
 - Nama acak: drowsy-quokka-83 (Cervus121212/drowsy-quokka-83)
 - Commit: 9f8fb84329897ebd7ac08756a49b1463006a3c18 (branch master)
 - PUBLIC terverifikasi via gh api (visibility public, private false)
